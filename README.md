@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ---
 
 ## 🚀 Usage
-1. Prepare a text file containing your project URLs (one per line). Example: start_urls.txt
+1. Prepare a csv file containing your project URLs (one per row). Example: project_urls.csv
 2. Run the spider:
 ```bash
 scrapy crawl immovlan -o output/properties_data.csv
@@ -69,5 +69,7 @@ scrapy crawl immovlan -a limit=10 -o output/test_data.csv
 ## 🧠 Notes
 - Missing fields are written as None.
 - The scraper respects robots.txt and polite crawling delays.
-- Easily extendable for new fields or output formats.
+- Easily extendable for new fields or output formats (.csv or .json)
+- Data is completely cleaned and normalised
+- All data anomalies are neatly fixed
 
