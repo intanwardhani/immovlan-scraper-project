@@ -1,0 +1,4 @@
+scrapy==2.11.1
+tqdm==4.66.1
+pandas>=2.0
+lxml
