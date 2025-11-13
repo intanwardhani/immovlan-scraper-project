@@ -5,6 +5,7 @@ A robust Scrapy project to extract detailed real-estate property data from immov
 ---
 
 ## 📁 Project Structure
+```markdown
 immovlan-scraper-project/
 │
 ├── logs/
@@ -31,6 +32,7 @@ immovlan-scraper-project/
 ├── README.md
 ├── requirements.txt
 └── scrapy.cfg
+```
 
 ---
 
